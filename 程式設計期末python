@@ -1,0 +1,6 @@
+f = open(file="python.excel.csv",encoding='utf8')
+lines = f.readlines()
+
+s = lines[2]
+words = s.split(",")
+print(words)
